@@ -1,0 +1,14 @@
+code --list-extensions  // for getting all extensions.
+
+
+// for downloading the extension in the lab machine.
+
+cat extensions.txt | xargs -n 1 code --install-extension
+
+OR
+
+for /F %e in (extensions.txt) do code --install-extension %e
+
+OR 
+
+code --install-extension extension-name

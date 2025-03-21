@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+  <title>Counting Stairs</title>
+</head>
+<body>
+    <h1>Let's Help Erin!</h1>
+    <p>How many ways are there for Stanley to get up the stairs?</p>
+    <label for="inputN">Number of stairs: </label>
+    <input type="number" id="inputN" min="1" step="1" value="1">
+    <button>Calculate</button>
+    <p id="result"></p>
+
+    <script>
+        // TODO: Write your code here.
+        function fibonacci(n) {
+          if(n<=0) return 0;
+          if(n===1) return 1;
+          if(n===2) return 2;
+          else return fibonacci(n-1)+fibonacci(n-2);
+        }
+        document.getElementsByTagName("button")[0].addEventListener('click', ()=> {
+          let number = document.getElementById("inputN").value;
+        document.getElementById("result").innerHTML = `Result: ${fibonacci(number)}`;
+        })
+        
+    </script>
+</body>
+</html>
