@@ -1,0 +1,33 @@
+* {
+    background-color: #118a8a;
+}
+
+#top, #addText {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+#addTask {
+    height: 30px;
+    width: 90px;
+    background-color: aqua;
+}
+
+#text {
+    color: blue;
+    background-color: rgb(243, 243, 7);
+    width: 500px;
+    height: 70px;
+    display: none;
+}
+
+#addText {
+    background-color: rgb(71, 20, 191);
+    display: none;
+}
+
+#todo-items {
+    font-size: 18px;
+    width: 50%;
+}

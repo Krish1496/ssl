@@ -1,0 +1,6 @@
+1. wolf wolf wolf wolf
+2. Wolf wolf Wolf WoLf
+3. WoLf WOlf WolF
+4. WOLf WOlf WOLF
+5. wolfISWolf WOlfISwoLF
+6. NO_w.olf in this line

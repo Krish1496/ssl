@@ -1,0 +1,23 @@
+Entity,Duration,Principal,Type,CompoundRate
+Reliance,2 years,100,stocks,3
+NipponIndia,3 years,1000,mutual funds,2
+Veritas,2 years,200,stocks,4
+HDFC,4 years,500,mutual funds,3
+TataSteel,3 years,300,stocks,2
+GoldETF,5 years,400,gold,2
+Infosys,6 years,700,stocks,5
+SBI,3 years,800,mutual funds,2
+ITC,5 years,600,stocks,3
+AxisBank,4 years,900,mutual funds,4
+HUL,2 years,100,stocks,3
+BajajFin,3 years,1200,mutual funds,2
+ONGC,4 years,250,stocks,2
+CoalIndia,5 years,500,stocks,3
+SilverETF,3 years,450,silver,2
+ICICIBank,6 years,1100,mutual funds,3
+BPCL,3 years,300,stocks,2
+L&T,5 years,750,stocks,4
+Adani,7 years,900,stocks,5
+Titan,4 years,600,stocks,3
+Maruti,3 years,500,stocks,2
+Zomato,5 years,200,startup,6

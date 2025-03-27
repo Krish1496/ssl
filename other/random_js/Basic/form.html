@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form>
+        <span>Enter Name</span>
+        <input type="text" id="nameInput">
+        <button onclick="getName()">Submit</button>
+        <p id="output"></p>
+
+        <script>
+            function getName() {
+                let name = document.getElementById('nameInput').value;
+                document.getElementById('output').innerHTML = `Hello ${name}`;
+            }
+        </script>
+    </form> -->
+
+    <form id="myForm">
+        <input type="text" id="nameInput">
+        <button type="submit">Submit</button>
+    </form>
+    <p id="output"></p>
+    
+    <script>
+    document.getElementById("myForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent page reload
+        let name = document.getElementById("nameInput").value;
+        document.getElementById("output").innerHTML = "Hello, " + name;
+    });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,46 @@
+fieldset {
+    background-color: rgb(209, 232, 232);
+}
+
+legend {
+    background-color: rgb(22, 236, 68);
+    border: 1px solid black;
+    border-radius: 10%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 200px;
+    height: 20px;
+}
+
+* {
+    padding: 3px;
+    margin: 5px;
+}
+
+input {
+    font-size: 24px;
+}
+
+#forget {
+    font-size: 16px;
+    position: absolute;
+    text-align: left;
+    color: blue;
+    margin-top: 15px;
+}
+
+#newUser {
+    font-size: 16px;
+    text-align: right;
+    position: fixed;
+    right: 40px;
+    color: blue;
+    margin-top: 15px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 15px;
+}

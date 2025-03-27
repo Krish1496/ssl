@@ -1,0 +1,19 @@
+header {
+    background-color: #00fd9c;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.top {
+    display: inline-block;
+    width: 24vw;
+    height: 35px;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 23px;
+    text-decoration: none;
+    position: sticky;
+    font-family: cursive;
+}

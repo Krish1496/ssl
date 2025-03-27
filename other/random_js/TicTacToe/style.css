@@ -1,0 +1,39 @@
+* {
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.inner {
+    height: 100px;
+    width: 100px;
+    border: 4px solid black;
+    box-sizing: border-box;
+}
+
+#outer {
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    justify-content: center;
+}
+
+.top {
+    border-top: none;
+}
+
+.left {
+    border-left: none;
+}
+
+.right {
+    border-right: none;
+}
+
+.bottom {
+    border-bottom: none;  
+}
+
+
+.inner:hover {
+    background-color: rgb(230, 240, 233);
+}
