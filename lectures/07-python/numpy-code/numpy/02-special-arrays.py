@@ -4,6 +4,11 @@ import numpy as np
 
 # Array with ones on the main diagonal and zeros elsewhere (Identity matrix)
 arr = np.eye(3)
+'''
+can also write 
+np.eye(3,4) or
+np.eye(a,b,c) : this creates a array of size a by b and 1's starting from the column no. c.
+'''
 print("0 (Identity matrix)\n", arr)
 
 # Array with zeros everywhere
