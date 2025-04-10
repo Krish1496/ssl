@@ -91,6 +91,13 @@ for idx, x in np.ndenumerate(arr):
 #Boolen indexing
 arr = np.array([1, 2, 3, 4, 5, 6])
 mask = arr>3
+"""
+mask = arr > 3
+same as 
+mask = [1>3, 2>3, 3>3, 4>3, 5>3, 6>3]
+that will be
+mask = [f,f,f,t,t,t] #here f -> false and t -> true
+"""
 #When you do arr[mask],
 # Scans the Boolean Mask and picks the True indices:
 # Creates a New Array containing only those elements:
